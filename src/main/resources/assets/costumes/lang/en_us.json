@@ -3,5 +3,15 @@
   "item.costumes.zookeeperhelmet": "Zookeeper Helmet",
   "item.costumes.zookeeperbody": "Zookeeper Chestplate",
   "item.costumes.zookeeperlegs": "Zookeeper Leggings",
-  "item.costumes.zookeeperboots": "Zookeeper Boots"
+  "item.costumes.zookeeperboots": "Zookeeper Boots",
+  "item.costumes.beasthelmet": "Beast Helmet",
+  "item.costumes.beastbody": "Beast Chestplate",
+  "item.costumes.beastlegs": "Beast Leggings",
+  "item.costumes.beastboots": "Beast Boots",
+  "item.costumes.dabpolicebody": "Dab Police Chestplate",
+
+
+  "itemGroup.othercostumes": "Other Costumes",
+  "itemGroup.moviecostumes": "Movie Character Costumes",
+  "itemGroup.minecraftcostumes": "Minecraft Costumes"
 }

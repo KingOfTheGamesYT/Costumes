@@ -1,6 +1,8 @@
 package com.drgrass.costumes;
 
 
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -41,6 +43,30 @@ public class Costumes
     public void onServerStarting(FMLServerStartingEvent event) {
 
     }
+    public static final ItemGroup MC = new ItemGroup("minecraftcostumes") {
+
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.Dab_Shirt.get());
+        }
+    };
 
 
+
+    public static final ItemGroup Movie = new ItemGroup("moviecostumes") {
+
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.Beast_Chest.get());
+        }
+    };
+
+
+    public static final ItemGroup Other = new ItemGroup("othercostumes") {
+
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.Zookeeper_Helmet.get());
+        }
+    };
 }
