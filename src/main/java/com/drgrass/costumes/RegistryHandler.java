@@ -36,7 +36,10 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Beast_Pants = ITEMS.register("beastlegs", () ->
             new ArmorItem(ModArmorMaterial.Beast, EquipmentSlotType.LEGS, new Item.Properties()));//.group(DangerZone.ARMOR)));
 
-    public static final RegistryObject<ArmorItem> Beast_bootst = ITEMS.register("beastboots", () ->
+    public static final RegistryObject<ArmorItem> Beast_boots = ITEMS.register("beastboots", () ->
             new ArmorItem(ModArmorMaterial.Beast, EquipmentSlotType.FEET, new Item.Properties()));//.group(DangerZone.ARMOR)));
+
+    public static final RegistryObject<ArmorItem> Dab_Shirt = ITEMS.register("dabpolicebody", () ->
+            new ArmorItem(ModArmorMaterial.Dab, EquipmentSlotType.CHEST, new Item.Properties()));//.group(DangerZone.ARMOR)));
 
 }
