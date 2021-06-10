@@ -78,4 +78,16 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Deadpool_boots = ITEMS.register("deadpoolboots", () ->
             new ArmorItem(ModArmorMaterial.Dead, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
 
+    public static final RegistryObject<ArmorItem> Drgrass_Helmet = ITEMS.register("doctorgrassarmorhelmet", () ->
+            new ArmorItem(ModArmorMaterial.Dr, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Drgrass = ITEMS.register("doctorgrassarmorbody", () ->
+            new ArmorItem(ModArmorMaterial.Dr, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Drgrass_Leggings = ITEMS.register("doctorgrasslegs", () ->
+            new ArmorItem(ModArmorMaterial.Dr, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Drgrass_boots = ITEMS.register("doctorgrassboots", () ->
+            new ArmorItem(ModArmorMaterial.Dr, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.MC)));
+
 }

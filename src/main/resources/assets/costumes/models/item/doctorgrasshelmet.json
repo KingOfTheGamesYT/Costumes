@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "items/head"
+        "layer0": "costumes:items/head"
     }
 }
