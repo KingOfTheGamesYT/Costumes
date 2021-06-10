@@ -32,6 +32,9 @@ public enum ModArmorMaterial implements IArmorMaterial {
     SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F),
 
     Ginger(Costumes.MOD_ID + ":ginger", 400, new int[] { 2, 5, 6, 2 }, 40,
+    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F),
+
+    Hack(Costumes.MOD_ID + ":hacker", 400, new int[] { 2, 5, 6, 2 }, 40,
     SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F);
 
 
