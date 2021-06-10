@@ -53,4 +53,17 @@ public class RegistryHandler {
 
     public static final RegistryObject<ArmorItem> Bear_bootst = ITEMS.register("bearboots", () ->
             new ArmorItem(ModArmorMaterial.Bear, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Other)));
+
+    public static final RegistryObject<ArmorItem> Bob_Helmet = ITEMS.register("bobhelmet", () ->
+            new ArmorItem(ModArmorMaterial.Bob, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Bob_Chest = ITEMS.register("bobbody", () ->
+            new ArmorItem(ModArmorMaterial.Bob, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Bob_Pants = ITEMS.register("boblegs", () ->
+            new ArmorItem(ModArmorMaterial.Bob, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Bob_boots = ITEMS.register("bobboots", () ->
+            new ArmorItem(ModArmorMaterial.Bob, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
+
 }

@@ -13,6 +13,11 @@
   "item.costumes.bearbody": "Bear Chestplate",
   "item.costumes.bearlegs": "Bear Leggings",
   "item.costumes.bearboots": "Bear Boots",
+  "item.costumes.bobhelmet": "Bob The Builder Helmet",
+  "item.costumes.bobbody": "Bob The Builder Chestplate",
+  "item.costumes.boblegs": "Bob The Builder Leggings",
+  "item.costumes.bobboots": "Bob The Builder Boots",
+
 
   "itemGroup.othercostumes": "Other Costumes",
   "itemGroup.moviecostumes": "Movie Character Costumes",
