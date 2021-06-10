@@ -90,4 +90,16 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Drgrass_boots = ITEMS.register("doctorgrassboots", () ->
             new ArmorItem(ModArmorMaterial.Dr, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.MC)));
 
+    public static final RegistryObject<ArmorItem> Ginger_Helmet = ITEMS.register("gingerbreadhelmet", () ->
+            new ArmorItem(ModArmorMaterial.Ginger, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Ginger_Chest = ITEMS.register("gingerbreadbody", () ->
+            new ArmorItem(ModArmorMaterial.Ginger, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Ginger_Pants = ITEMS.register("gingerbreadlegs", () ->
+            new ArmorItem(ModArmorMaterial.Ginger, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Ginger_boots = ITEMS.register("gingerbreadboots", () ->
+            new ArmorItem(ModArmorMaterial.Ginger, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
+
 }
