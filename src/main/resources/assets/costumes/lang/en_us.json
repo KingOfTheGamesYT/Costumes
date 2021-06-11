@@ -33,7 +33,10 @@
   "item.costumes.hackerbody": "Hacker Chestplate",
   "item.costumes.hackerlegs": "Hacker Leggings",
   "item.costumes.hackerboots": "Hacker Boots",
-
+  "item.costumes.huskhelmet": "Husk Helmet",
+  "item.costumes.huskbody": "Husk Chestplate",
+  "item.costumes.husklegs": "Husk Leggings",
+  "item.costumes.huskboots": "Husk Boots",
 
   "itemGroup.othercostumes": "Other Costumes",
   "itemGroup.moviecostumes": "Movie Character Costumes",

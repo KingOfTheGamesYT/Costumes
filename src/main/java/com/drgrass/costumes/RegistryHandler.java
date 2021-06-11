@@ -105,5 +105,15 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Hacker_Helmet = ITEMS.register("hackerhelmet", () ->
             new ArmorItem(ModArmorMaterial.Hack, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
 
+    public static final RegistryObject<ArmorItem> Husk_Helmet = ITEMS.register("huskhelmet", () ->
+            new ArmorItem(ModArmorMaterial.Husk, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Husk_Chest = ITEMS.register("huskbody", () ->
+            new ArmorItem(ModArmorMaterial.Husk, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Husk_Pants = ITEMS.register("husklegs", () ->
+            new ArmorItem(ModArmorMaterial.Husk, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.MC)));
+
+
 
 }
