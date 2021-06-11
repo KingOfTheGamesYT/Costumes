@@ -37,6 +37,10 @@
   "item.costumes.huskbody": "Husk Chestplate",
   "item.costumes.husklegs": "Husk Leggings",
   "item.costumes.huskboots": "Husk Boots",
+  "item.costumes.jebhelmet": "Jeb Helmet",
+  "item.costumes.jebbody": "Jeb Chestplate",
+  "item.costumes.jeblegs": "Jeb Leggings",
+  "item.costumes.jebboots": "Jeb Boots",
 
   "itemGroup.othercostumes": "Other Costumes",
   "itemGroup.moviecostumes": "Movie Character Costumes",

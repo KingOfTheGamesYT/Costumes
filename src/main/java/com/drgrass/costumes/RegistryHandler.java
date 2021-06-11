@@ -114,6 +114,17 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Husk_Pants = ITEMS.register("husklegs", () ->
             new ArmorItem(ModArmorMaterial.Husk, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.MC)));
 
+    public static final RegistryObject<ArmorItem> Jeb_Helmet = ITEMS.register("jebhelmet", () ->
+            new ArmorItem(ModArmorMaterial.Jeb, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Jeb_Chest = ITEMS.register("jebbody", () ->
+            new ArmorItem(ModArmorMaterial.Jeb, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Jeb_Pants = ITEMS.register("jeblegs", () ->
+            new ArmorItem(ModArmorMaterial.Jeb, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Jeb_Boots = ITEMS.register("jebboots", () ->
+            new ArmorItem(ModArmorMaterial.Jeb, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.MC)));
 
 
 }
