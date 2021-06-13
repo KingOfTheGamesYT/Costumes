@@ -165,4 +165,13 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Mario_boots = ITEMS.register("marioboots", () ->
             new ArmorItem(ModArmorMaterial.Mario, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
 
+    public static final RegistryObject<ArmorItem> Messi_Chest = ITEMS.register("messibody", () ->
+            new ArmorItem(ModArmorMaterial.Messi, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.Other)));
+
+    public static final RegistryObject<ArmorItem> Messi_Pants = ITEMS.register("messilegs", () ->
+            new ArmorItem(ModArmorMaterial.Messi, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.Other)));
+
+    public static final RegistryObject<ArmorItem> Messi_bootst = ITEMS.register("messiboots", () ->
+            new ArmorItem(ModArmorMaterial.Messi, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Other)));
+
 }
