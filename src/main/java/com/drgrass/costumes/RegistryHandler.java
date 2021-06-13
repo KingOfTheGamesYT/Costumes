@@ -174,4 +174,16 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Messi_bootst = ITEMS.register("messiboots", () ->
             new ArmorItem(ModArmorMaterial.Messi, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Other)));
 
+    public static final RegistryObject<ArmorItem> Micky_Helmet = ITEMS.register("mickeymousehelmet", () ->
+            new ArmorItem(ModArmorMaterial.Micky, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Micky_Chest = ITEMS.register("mickeymousebody", () ->
+            new ArmorItem(ModArmorMaterial.Micky, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Micky_Pants = ITEMS.register("mickeymouselegs", () ->
+            new ArmorItem(ModArmorMaterial.Micky, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Micky_boots = ITEMS.register("mickeymouseboots", () ->
+            new ArmorItem(ModArmorMaterial.Micky, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
+
 }

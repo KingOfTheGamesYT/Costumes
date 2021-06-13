@@ -56,6 +56,9 @@ public enum ModArmorMaterial implements IArmorMaterial {
     SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F),
 
     Messi(Costumes.MOD_ID + ":messi", 400, new int[] { 2, 5, 6, 2 }, 40,
+    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F),
+
+    Micky(Costumes.MOD_ID + ":mouse", 400, new int[] { 2, 5, 6, 2 }, 40,
     SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] {11, 16, 15, 13};
