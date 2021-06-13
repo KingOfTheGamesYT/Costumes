@@ -153,4 +153,16 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> MagmaMusen_Helmet = ITEMS.register("magmamusenhelmet", () ->
             new ArmorItem(ModArmorMaterial.Magma, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
 
+    public static final RegistryObject<ArmorItem> Mario_Helmet = ITEMS.register("mariohelmet", () ->
+            new ArmorItem(ModArmorMaterial.Mario, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Mario_Chest = ITEMS.register("mariobody", () ->
+            new ArmorItem(ModArmorMaterial.Mario, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Mario_Pants = ITEMS.register("mariolegs", () ->
+            new ArmorItem(ModArmorMaterial.Mario, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Mario_boots = ITEMS.register("marioboots", () ->
+            new ArmorItem(ModArmorMaterial.Mario, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
+
 }
