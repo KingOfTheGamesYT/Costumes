@@ -189,4 +189,16 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Mumbo_Helmet = ITEMS.register("mumbohelmet", () ->
             new ArmorItem(ModArmorMaterial.Mumbo, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
 
+    public static final RegistryObject<ArmorItem> Ninja_Mask = ITEMS.register("ninjahelmet", () ->
+            new ArmorItem(ModArmorMaterial.Ninja, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.Other)));
+
+    public static final RegistryObject<ArmorItem> Ninja_Chest = ITEMS.register("ninjabody", () ->
+            new ArmorItem(ModArmorMaterial.Ninja, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.Other)));
+
+    public static final RegistryObject<ArmorItem> Ninja_Pants = ITEMS.register("ninjalegs", () ->
+            new ArmorItem(ModArmorMaterial.Ninja, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.Other)));
+
+    public static final RegistryObject<ArmorItem> Ninja_bootst = ITEMS.register("ninjaboots", () ->
+            new ArmorItem(ModArmorMaterial.Ninja, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Other)));
+
 }
