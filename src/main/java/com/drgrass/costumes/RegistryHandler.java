@@ -150,4 +150,7 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Joker_boots = ITEMS.register("jokerboots", () ->
             new ArmorItem(ModArmorMaterial.Joker, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
 
+    public static final RegistryObject<ArmorItem> MagmaMusen_Helmet = ITEMS.register("magmamusenhelmet", () ->
+            new ArmorItem(ModArmorMaterial.Magma, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
+
 }
