@@ -65,6 +65,9 @@ public enum ModArmorMaterial implements IArmorMaterial {
     SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F),
 
     Ninja(Costumes.MOD_ID + ":ninja", 400, new int[] { 2, 5, 6, 2 }, 40,
+    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F),
+
+    Notch(Costumes.MOD_ID + ":notch", 400, new int[] { 2, 5, 6, 2 }, 40,
     SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F);
 
 

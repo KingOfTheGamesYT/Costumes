@@ -201,4 +201,13 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Ninja_bootst = ITEMS.register("ninjaboots", () ->
             new ArmorItem(ModArmorMaterial.Ninja, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Other)));
 
+    public static final RegistryObject<ArmorItem> Notch_Chest = ITEMS.register("notchbody", () ->
+            new ArmorItem(ModArmorMaterial.Notch, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Notch_Pants = ITEMS.register("notchlegs", () ->
+            new ArmorItem(ModArmorMaterial.Notch, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Notch_Boots = ITEMS.register("notchboots", () ->
+            new ArmorItem(ModArmorMaterial.Notch, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.MC)));
+
 }
