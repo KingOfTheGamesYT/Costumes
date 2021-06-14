@@ -210,4 +210,13 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Notch_Boots = ITEMS.register("notchboots", () ->
             new ArmorItem(ModArmorMaterial.Notch, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.MC)));
 
+    public static final RegistryObject<ArmorItem> Pink_Sheep_Helmet = ITEMS.register("pinksheephelmet", () ->
+            new ArmorItem(ModArmorMaterial.Pink_Sheep, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Pink_Sheep_Chest = ITEMS.register("pinksheepbody", () ->
+            new ArmorItem(ModArmorMaterial.Pink_Sheep, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Pink_Sheep_Legs = ITEMS.register("pinksheeplegs", () ->
+            new ArmorItem(ModArmorMaterial.Pink_Sheep, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.MC)));
+
 }
