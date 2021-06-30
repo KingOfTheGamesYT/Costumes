@@ -86,7 +86,10 @@
   "item.costumes.sullybody": "Sully Chestplate",
   "item.costumes.sullylegs": "Sully Leggings",
   "item.costumes.sullyboots": "Sully Boots",
-  "item.costumes.sunglasseshelmet": "Sully Helmet",
+  "item.costumes.sunglasseshelmet": "Sunglasses",
+  "item.costumes.supermanbody": "Superman Chestplate",
+  "item.costumes.supermanlegs": "Superman Leggings",
+  "item.costumes.supermanboots": "Superman Boots",
 
   "itemGroup.othercostumes": "Other Costumes",
   "itemGroup.moviecostumes": "Movie Character Costumes",
