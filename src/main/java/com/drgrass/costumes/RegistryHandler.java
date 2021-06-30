@@ -237,4 +237,13 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Spiderman_bootst = ITEMS.register("spidermanboots", () ->
             new ArmorItem(ModArmorMaterial.Spiderman, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
 
+    public static final RegistryObject<ArmorItem> Stray_Mask = ITEMS.register("strayhelmet", () ->
+            new ArmorItem(ModArmorMaterial.Stray, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Stray_Chest = ITEMS.register("straybody", () ->
+            new ArmorItem(ModArmorMaterial.Stray, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Stray_Pants = ITEMS.register("straylegs", () ->
+            new ArmorItem(ModArmorMaterial.Stray, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.MC)));
+
 }
