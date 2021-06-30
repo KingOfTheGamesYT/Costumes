@@ -246,4 +246,16 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Stray_Pants = ITEMS.register("straylegs", () ->
             new ArmorItem(ModArmorMaterial.Stray, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.MC)));
 
+    public static final RegistryObject<ArmorItem> Sully_Mask = ITEMS.register("sullyhelmet", () ->
+            new ArmorItem(ModArmorMaterial.Sully, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Sully_Chest = ITEMS.register("sullybody", () ->
+            new ArmorItem(ModArmorMaterial.Sully, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Sully_Pants = ITEMS.register("sullylegs", () ->
+            new ArmorItem(ModArmorMaterial.Sully, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Sully_bootst = ITEMS.register("sullyboots", () ->
+            new ArmorItem(ModArmorMaterial.Sully, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
+
 }
