@@ -92,6 +92,9 @@ public enum ModArmorMaterial implements IArmorMaterial {
     SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F),
 
     TDM(Costumes.MOD_ID + ":tdm", 400, new int[] { 2, 5, 6, 2 }, 40,
+    SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F),
+
+    Troll(Costumes.MOD_ID + ":troll", 400, new int[] { 2, 5, 6, 2 }, 40,
     SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0F);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[] {11, 16, 15, 13};

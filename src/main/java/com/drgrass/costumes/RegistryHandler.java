@@ -282,4 +282,15 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> TDM_boots = ITEMS.register("tdmboots", () ->
             new ArmorItem(ModArmorMaterial.TDM, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.MC)));
 
+    public static final RegistryObject<ArmorItem> Troll_Mask = ITEMS.register("trollhelmet", () ->
+            new ArmorItem(ModArmorMaterial.Troll, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Troll_Chest = ITEMS.register("trollbody", () ->
+            new ArmorItem(ModArmorMaterial.Troll, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Troll_Pants = ITEMS.register("trolllegs", () ->
+            new ArmorItem(ModArmorMaterial.Troll, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> Troll_boots = ITEMS.register("trollboots", () ->
+            new ArmorItem(ModArmorMaterial.Troll, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.MC)));
 }

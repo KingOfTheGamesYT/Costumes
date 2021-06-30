@@ -94,6 +94,10 @@
   "item.costumes.tdmbody": "DanTDM Chestplate",
   "item.costumes.tdmlegs": "DanTDM Leggings",
   "item.costumes.tdmboots": "DanTDM Boots",
+  "item.costumes.trollhelmet": "Troll Helmet",
+  "item.costumes.trollbody": "Troll Chestplate",
+  "item.costumes.trolllegs": "Troll Leggings",
+  "item.costumes.trollboots": "Troll Boots",
 
   "itemGroup.othercostumes": "Other Costumes",
   "itemGroup.moviecostumes": "Movie Character Costumes",
