@@ -219,4 +219,10 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Pink_Sheep_Legs = ITEMS.register("pinksheeplegs", () ->
             new ArmorItem(ModArmorMaterial.Pink_Sheep, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.MC)));
 
+    public static final RegistryObject<ArmorItem> Ralph_Chest = ITEMS.register("ralphbody", () ->
+            new ArmorItem(ModArmorMaterial.Ralph, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Ralph_Legs = ITEMS.register("ralphlegs", () ->
+            new ArmorItem(ModArmorMaterial.Ralph, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.Movie)));
+
 }
