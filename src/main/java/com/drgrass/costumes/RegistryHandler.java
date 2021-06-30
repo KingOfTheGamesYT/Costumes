@@ -225,4 +225,16 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Ralph_Legs = ITEMS.register("ralphlegs", () ->
             new ArmorItem(ModArmorMaterial.Ralph, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.Movie)));
 
+    public static final RegistryObject<ArmorItem> Spiderman_Mask = ITEMS.register("spidermanhelmet", () ->
+            new ArmorItem(ModArmorMaterial.Spiderman, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Spiderman_Chest = ITEMS.register("spidermanbody", () ->
+            new ArmorItem(ModArmorMaterial.Spiderman, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Spiderman_Pants = ITEMS.register("spidermanlegs", () ->
+            new ArmorItem(ModArmorMaterial.Spiderman, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.Movie)));
+
+    public static final RegistryObject<ArmorItem> Spiderman_bootst = ITEMS.register("spidermanboots", () ->
+            new ArmorItem(ModArmorMaterial.Spiderman, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
+
 }
