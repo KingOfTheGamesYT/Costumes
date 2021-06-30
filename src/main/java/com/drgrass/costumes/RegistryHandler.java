@@ -258,4 +258,7 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Sully_bootst = ITEMS.register("sullyboots", () ->
             new ArmorItem(ModArmorMaterial.Sully, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
 
+    public static final RegistryObject<ArmorItem> Sunglasses_Mask = ITEMS.register("sunglasseshelmet", () ->
+            new ArmorItem(ModArmorMaterial.Sunglasses, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
+
 }
