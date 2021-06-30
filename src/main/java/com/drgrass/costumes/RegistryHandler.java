@@ -270,4 +270,16 @@ public class RegistryHandler {
     public static final RegistryObject<ArmorItem> Superman_boots = ITEMS.register("supermanboots", () ->
             new ArmorItem(ModArmorMaterial.Superman, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.Movie)));
 
+    public static final RegistryObject<ArmorItem> TDM_Mask = ITEMS.register("tdmhelmet", () ->
+            new ArmorItem(ModArmorMaterial.TDM, EquipmentSlotType.HEAD, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> TDM_Chest = ITEMS.register("tdmbody", () ->
+            new ArmorItem(ModArmorMaterial.TDM, EquipmentSlotType.CHEST, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> TDM_Pants = ITEMS.register("tdmlegs", () ->
+            new ArmorItem(ModArmorMaterial.TDM, EquipmentSlotType.LEGS, new Item.Properties().group(Costumes.MC)));
+
+    public static final RegistryObject<ArmorItem> TDM_boots = ITEMS.register("tdmboots", () ->
+            new ArmorItem(ModArmorMaterial.TDM, EquipmentSlotType.FEET, new Item.Properties().group(Costumes.MC)));
+
 }

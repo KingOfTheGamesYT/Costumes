@@ -90,6 +90,10 @@
   "item.costumes.supermanbody": "Superman Chestplate",
   "item.costumes.supermanlegs": "Superman Leggings",
   "item.costumes.supermanboots": "Superman Boots",
+  "item.costumes.tdmhelmet": "DanTDM Helmet",
+  "item.costumes.tdmbody": "DanTDM Chestplate",
+  "item.costumes.tdmlegs": "DanTDM Leggings",
+  "item.costumes.tdmboots": "DanTDM Boots",
 
   "itemGroup.othercostumes": "Other Costumes",
   "itemGroup.moviecostumes": "Movie Character Costumes",
