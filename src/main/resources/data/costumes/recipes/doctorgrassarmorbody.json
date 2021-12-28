@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    "PLP",
+    "PLP"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "L": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "costumes:doctorgrassarmorbody",
+    "count": 1
+  }
+}
