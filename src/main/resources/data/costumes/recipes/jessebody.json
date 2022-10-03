@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i i",
+    "PPP",
+    "LPL"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "L": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "costumes:jessebody",
+    "count": 1
+  }
+}
