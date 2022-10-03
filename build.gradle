@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '2.0.2'
+version = '2.0.3'
 group = 'com.drgrass.costumes' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'costumes'
 
@@ -73,10 +73,18 @@ minecraft {
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
+repositories {
+    mavenCentral()
+    maven { url 'https://www.cursemaven.com'}
+
+}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.20'
 
 
+//project name, project id, file id
+    implementation fg.deobf("curse.maven:jei-238222:3189632")
 }
 
 jar {

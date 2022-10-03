@@ -20,6 +20,10 @@ public class Costumes
 {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "costumes";
+    public static final ItemGroup MC = new MinecraftCostumes();
+    public static final ItemGroup Movie = new MovieCostumes();
+    public static final ItemGroup Other = new OtherCostumes();
+
 
     public Costumes() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -43,30 +47,4 @@ public class Costumes
     public void onServerStarting(FMLServerStartingEvent event) {
 
     }
-    public static final ItemGroup MC = new ItemGroup("minecraftcostumes") {
-
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.Dab_Shirt.get());
-        }
-    };
-
-
-
-    public static final ItemGroup Movie = new ItemGroup("moviecostumes") {
-
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.Beast_Chest.get());
-        }
-    };
-
-
-    public static final ItemGroup Other = new ItemGroup("othercostumes") {
-
-        @Override
-        public ItemStack createIcon() {
-            return new ItemStack(RegistryHandler.Zookeeper_Helmet.get());
-        }
-    };
 }
