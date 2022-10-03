@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#i#",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_dye"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "costumes:jessehelmet",
+    "count": 1
+  }
+}
