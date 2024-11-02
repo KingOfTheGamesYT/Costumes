@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "costumes:items/jesse_shirt"
+        "layer0": "costumes:item/jesse_shirt"
     }
 }
